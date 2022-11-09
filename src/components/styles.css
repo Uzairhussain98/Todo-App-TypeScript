@@ -1,0 +1,42 @@
+.input{
+    display: flex;
+    width: 80%;
+    position: relative;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.input__box{
+    width: 100%;
+    padding: 20px 30px;
+    border-radius: 50px;
+    transition: 0.1s;
+    border: none;
+    /* background-color: aqua; */
+    
+}
+.input__box:focus{
+    box-shadow: 0 0  10px 1000px rgb(85, 79, 79);
+    outline: none;
+}
+.input__submit{
+    position: absolute;
+    right: 0px;
+    width: 100px;
+    height: 30px;
+    margin:30px;
+    border-radius: 50px;
+    background-color: rgb(101, 159, 245);
+    transition: 0.2s;
+}
+
+.input__submit:hover{
+    transform: scale(1.1);
+}
+
+.input__submit:active{
+    transform: scale(0.8);
+}
+
+
+    
