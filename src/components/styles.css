@@ -39,4 +39,31 @@
 }
 
 
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('https://t3.ftcdn.net/jpg/03/19/00/58/360_F_319005824_sS4Tzx2QZ7WXqn8BP9yz0sFTyUnFEqbw.jpg');
+    /* background-size: cover; */
+    width: 500px;
+    height: 70px;
+    margin-top: 30px;
+    padding: 10px;
     
+}
+
+.todos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+
+.card_text{
+    font-size: 22px;
+}
+
+.icon{
+    font-size: 20px;
+}
